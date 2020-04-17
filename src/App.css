@@ -2,15 +2,25 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.book-box {  
+  padding: 10px 0;
+  display: inline-block;
+  border-bottom: 1px solid #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.delete-button {
+  background: transparent;
+  float: right;
+}
+
+.title {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.addBook-form label {
+  float:left;
+  font-weight: 500;
 }
 
 .App-header {
